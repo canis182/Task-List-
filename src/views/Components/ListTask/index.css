@@ -1,0 +1,12 @@
+#List{
+    max-height: 285px;
+    min-height: 87px;
+    height: 100%;
+    width: 800px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  

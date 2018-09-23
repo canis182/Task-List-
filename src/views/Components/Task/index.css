@@ -1,0 +1,45 @@
+#specific-task{
+    border: 1px solid #000;
+    padding: 15px;
+    width: 90%;
+    margin: 15px auto ;
+    text-align: left;
+    display: inline-block;
+}
+#task{
+    float:left;
+}
+#btn{
+    float:right;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+}
+#btn-ok{
+    float:right;
+    background: green;
+    height: 21px; width: 5px;
+    position: relative;
+    transform: rotate(45deg);
+}
+#btn-ok:after {
+    content: "";
+    height: 5px; width: 15px;
+    background: green;
+    position: absolute; left: -10px; top: 17px;
+}
+#btn-del{
+    float:right;
+    background: red;
+    height: 25px; width: 5px;
+    position: relative;
+    transform: rotate(45deg);
+}
+#btn-del:after {
+    content: "";
+    height: 5px; width: 25px;
+    background: red;
+    position: absolute; left: -9.5px; top: 9.5px;
+}
+
+

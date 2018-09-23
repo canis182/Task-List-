@@ -1,0 +1,15 @@
+#ident{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+#form{
+    margin: 20px 0;
+    padding: 5px;
+    height: 40px;
+    width: 500px;
+}
+#button{
+    height: 40px;
+    width: 80px;
+    margin: 0 180px 0 10px;
+}
